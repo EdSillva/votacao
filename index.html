@@ -1,24 +1,32 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-  <meta charset="UTF-8" />
-  <title>Votação</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <img src="assets/logo_ejc.png" alt="Logo EJC" class="logo" />
+  <head>
+    <meta charset="UTF-8" />
+    <title>Votação</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <img src="assets/logo_ejc.png" alt="Logo EJC" class="logo" />
 
-  <h2 style="color: white">Candidatos</h2>
-  <ul>
-    <li>1 - Ana</li>
-    <li>2 - Bruno</li>
-    <li>3 - Carlos</li>
-    <li>4 - Daniela</li>
-  </ul>
+    <h2 style="color: white">Candidatos</h2>
+    <div class="candidatos">
+      <ul>
+        <li>1 - João Garcia</li>
+        <li>2 - João Victor (Pão)</li>
+        <li>3 - Juliana Moura</li>
+        <li>4 - Maria do Socorro (Corrinho)</li>
+      </ul>
+    </div>
 
-  <input type="number" id="numeroInput" placeholder="Digite o número" min="1" max="4" />
-  <button onclick="enviar()">Enviar</button>
+    <input
+      type="number"
+      id="numeroInput"
+      placeholder="Digite o número"
+      min="1"
+      max="4"
+    />
+    <button onclick="enviar()">Votar</button>
 
-  <script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>

@@ -25,13 +25,18 @@ body {
     padding: 0;
     color: white;
     font-size: 20px;
-    text-align: center;
+    text-align: left;
+  }
+
+  .candidatos {
+    display: flex;
+    justify-content: center; /* Centraliza o bloco UL */
+    width: 100%;
   }
   
   li {
     margin-bottom: 8px;
   }
-  
   input,
   button {
     padding: 10px;
